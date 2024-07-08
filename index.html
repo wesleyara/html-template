@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Template</title>
+
+    <link rel="icon" href="src/assets/html-icon.png" type="image/png" />
+    <script src="https://cdn.tailwindcss.com/3.4.4"></script>
+    <link rel="stylesheet" href="src/styles/globals.css" />
+  </head>
+  <body>
+    <div class="flex h-[100vh] flex-col items-center justify-center gap-5">
+      <h1 class="text-[24px] font-bold">Vanilla Template</h1>
+
+      <div
+        class="flex w-[210px] flex-wrap items-center justify-center gap-2 text-[30px] font-bold"
+      >
+        <span
+          class="card"
+        >
+          <img src="src/assets/html-icon.png" alt="" />
+        </span>
+        <span
+          class="card"
+        >
+          <img src="src/assets/css-icon.png" alt="" />
+        </span>
+        <span
+          class="card"
+        >
+          <img src="/src/assets/js-icon.png" alt="" />
+        </span>
+        <span
+          class="card"
+        >
+          <img src="src/assets/tailwind-icon.png" alt="" />
+        </span>
+      </div>
+
+      <div class="flex flex-col items-center justify-center gap-5">
+        <p>Hello to the HTML, CSS, Javascript and Tailwind template!</p>
+        <div class="flex gap-5">
+          <button
+            id="button"
+            class="rounded-md border-2 bg-slate-200 p-2 focus:outline-none"
+          >
+            Count is: <span id="count">0</span>
+          </button>
+        </div>
+        <p>
+          Edit <code class="text-blue-400">index.html</code> and save to test
+          updates.
+        </p>
+      </div>
+    </div>
+
+    <script src="src/scripts/app.js"></script>
+    <script src="src/scripts/event.js"></script>
+  </body>
+</html>
